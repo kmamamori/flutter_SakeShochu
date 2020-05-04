@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "388739573208",
+    "firebase_url": "https://fluttersakeshochu.firebaseio.com",
+    "project_id": "fluttersakeshochu",
+    "storage_bucket": "fluttersakeshochu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388739573208:android:bee928f99aa735ecec3ead",
+        "android_client_info": {
+          "package_name": "com.example.flutter_sakeshochu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388739573208-kr8c4uc4i4pfomb9ddg4a6qgf8gpftkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB60oDd4-hP6AM3KkPtTY3qBQnanFbhCAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388739573208-kr8c4uc4i4pfomb9ddg4a6qgf8gpftkf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "388739573208-1ubvdmqo187i94c0csj1hmdqrcgrfbul.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterSakeshochu"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
