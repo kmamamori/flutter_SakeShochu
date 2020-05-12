@@ -22,7 +22,7 @@ class TravelPictures extends StatelessWidget {
             (BuildContext context, Widget child, TravelPicturesModel model) {
           return IndexedStack(
             index: model.stackIndex,
-            children: <Widget>[TravelPicturesList(), TravelPicturesEntry()],
+            children: <Widget>[ TravelPicturesEntry()],
           );
         }));
   }

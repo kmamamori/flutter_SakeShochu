@@ -10,7 +10,7 @@ final FirebaseAuth _auth = FirebaseAuth.instance;
 // final GoogleSignIn _googleSignIn = GoogleSignIn();
 
 class SignInPage extends StatefulWidget {
-  final String title = 'Registration';
+  final String title = 'Sign In';
   @override
   State<StatefulWidget> createState() => SignInPageState();
 }
@@ -80,7 +80,7 @@ class _EmailPasswordFormState extends State<_EmailPasswordForm> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Container(
-            child: const Text('Test sign in with email and password'),
+            child: const Text('Enter you email & password to signin'),
             padding: const EdgeInsets.all(16),
             alignment: Alignment.center,
           ),

@@ -19,7 +19,7 @@ class Contacts extends StatelessWidget {
           builder: (BuildContext context, Widget child, ContactsModel model) {
             return IndexedStack(
               index: model.stackIndex,
-              children: <Widget>[ ContactsList(), ContactsEntry()],
+              children: <Widget>[  ContactsEntry()],
             );
           }
       )

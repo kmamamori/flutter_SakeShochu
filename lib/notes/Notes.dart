@@ -13,7 +13,7 @@ class Notes extends StatelessWidget {
             builder: (BuildContext context, Widget child, NotesModel model) {
           return IndexedStack(
             index: model.stackIndex,
-            children: <Widget>[NotesList(), NotesEntry()],
+            children: <Widget>[ NotesEntry()],
           );
         }));
   }

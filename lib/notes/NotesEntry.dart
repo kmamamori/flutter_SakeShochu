@@ -36,7 +36,7 @@ class NotesEntry extends StatelessWidget {
               child: ListView(children: [
                 _buildTitleListTile(),
                 _buildContentListTile(),
-                _buildColorListTile(context)
+                // _buildColorListTile(context)
               ])));
     });
   }
@@ -45,7 +45,21 @@ class NotesEntry extends StatelessWidget {
     return ListTile(
         leading: Icon(Icons.title),
         title: TextFormField(
-          decoration: InputDecoration(hintText: 'Title'),
+          decoration: InputDecoration(hintText: 'email'),
+          controller: _titleEditingController,
+          validator: (String value) {
+            if (value.length == 0) {
+              return 'Please enter a title';
+            }
+            return null;
+          },
+        ));
+  }
+  ListTile _buildTitleLisAge() {
+    return ListTile(
+        leading: Icon(Icons.title),
+        title: TextFormField(
+          decoration: InputDecoration(hintText: 'email'),
           controller: _titleEditingController,
           validator: (String value) {
             if (value.length == 0) {
